@@ -6,7 +6,7 @@
 # 👨‍💻팀원 소개
 <div align="center">
 
-| 이선호 | 신준휘 | 전유빈 | 이현민 |
+| 이선호 | 신준희 | 전유빈 | 이현민 |
 |--------|--------|--------|-------|
 | <img src="./img/치이카와.jpeg" width="180" height="180"> | <img src="./img/하치와레.jpeg" width="180" height="180"> | <img src="./img/랏코.jpeg" width="180" height="180"> | <img src="./img/우사기.jpeg" width="180" height="180"> |
 
