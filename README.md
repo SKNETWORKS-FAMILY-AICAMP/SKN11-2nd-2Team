@@ -366,7 +366,7 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 | LightGBM | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
 
 - 최적의 파라미터
-![image](https://github.com/user-attachments/assets/2b1ff9b2-9014-460d-8cff-50caff587b47)
+![image](https://github.com/user-attachments/assets/87233022-326f-4936-8416-28ab780f1c07)
 
 ---
 ## 📉 ROC Curve 결과
