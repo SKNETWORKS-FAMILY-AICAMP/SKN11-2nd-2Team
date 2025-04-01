@@ -313,7 +313,7 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 ### ❗ 약점
 - **ROC AUC가 0.5 미만** → 확률 기반 분류 신뢰도 낮음
-- **비이탈 고객(0번)에 대한 recall 낮음 (0.51)** → 과잉 분류 가능성
+- **유지 고객(0번)에 대한 recall 낮음 (0.51)** → 과잉 분류 가능성
 - **predict_proba로 확률 기반 시스템 설계 어려움**
 
 ### 보완점
