@@ -239,7 +239,30 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 
 # 학습 과정
+기본 모델 (전처리 + optuna)
 
+| 모델 | train_acc | test_acc | precision | recall | f1-score |
+| --- | --- | --- | --- | --- | --- |
+| SVM(SVC) | 0.73 | 0.46 | 0.49 | 0.59 | 0.54 |
+| RandomForest | 0.66 | 0.55 | 0.5 | 0.72 | 0.59 |
+| XGBoost |  |  |  |  |  |
+| CatBoost | 0.68 | 0.52 | 0.48 | 0.56 | 0.5 |
+| LightGBM | 0.74 | 0.60 | 0.81 | 0.87 | 0.79 |
+
+  
+
+(전처리 + optuna + Smote)
+
+| 모델 | train_acc | test_acc | precision | recall | f1-score |
+| --- | --- | --- | --- | --- | --- |
+| 로지스틱회귀 | 0.53 | 0.57 | 0.53 | 0.82 | 0.64 |
+| SVM(SVC) |  |  |  |  |  |
+| RandomForest | 0.71 | 0.51 | 0.49 | 0.58 | 0.53 |
+| XGBoost | 0.63 | 0.52 | 0.50 | 0.95 | 0.65 |
+| CatBoost | 0.98 | 0.49 | 0.47 | 0.9 | 0.6 |
+| LightGBM | 0.64 | 0.61 | 0.65 | 0.62 | 0.63 |
+
+(fake)
 
 
 ### fake 데이터
