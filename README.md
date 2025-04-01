@@ -262,15 +262,6 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 | CatBoost | 0.98 | 0.49 | 0.47 | 0.9 | 0.6 |
 | LightGBM | 0.64 | 0.61 | 0.65 | 0.62 | 0.63 |
 
-(fake)
-| 모델 | train_acc | test_acc | precision | recall | f1-score |
-| --- | --- | --- | --- | --- | --- |
-| 로지스틱회귀 | 0.69 | 0.68 | 0.66 | 0.68 | 0.67 |
-| SVM(SVC) | 0.76 | 0.73 | 0.75 | 0.66 | 0.70 |
-| RandomForest0 | 0.80 | 0.79 | 0.80 | 0.74 | 0.77 |
-| XGBoost | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
-| CatBoost | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
-| LightGBM | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
 
 ### fake 데이터 전처리
 
@@ -290,5 +281,16 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 ![이미지](./img/제거이후수.png)
 
 ![이미지](./img/특성중요도.png)
+
+
+(fake)
+| 모델 | train_acc | test_acc | precision | recall | f1-score |
+| --- | --- | --- | --- | --- | --- |
+| 로지스틱회귀 | 0.69 | 0.68 | 0.66 | 0.68 | 0.67 |
+| SVM(SVC) | 0.76 | 0.73 | 0.75 | 0.66 | 0.70 |
+| RandomForest0 | 0.80 | 0.79 | 0.80 | 0.74 | 0.77 |
+| XGBoost | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
+| CatBoost | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
+| LightGBM | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
 
 # 예측
