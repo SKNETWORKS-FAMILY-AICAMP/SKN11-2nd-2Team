@@ -386,7 +386,7 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 |---------------------------|----------------|
 | `Annual_Income`         | 소득 수준이 높을수록 이탈 경향이 뚜렷함 (단발 소비 가능성) |
 | `Num_of_Purchases`      | 반복 구매가 많을수록 이탈률 낮음 → 충성고객 지표 |
-| `Average_Transaction_Amount` | 건당 금액이 클수록 단발 소비 경향. 리텐션 필요 |
+| `Average_Transaction_Amount` | 건당 금액이 클수록 단발 소비 경향. |
 | `Age`, `Total_Spend`      | 연령과 총 지출도 유의미. 하지만 반복성과의 상관이 중요 |
 | `Last_Purchase_Days_Ago`  | 마지막 구매 시점이 오래되었을수록 이탈 위험 ↑ |
 | `Num_of_Support_Contacts` | 고객 불만 지표로 활용 가능. 빈번한 문의는 이탈 위험요인 |
