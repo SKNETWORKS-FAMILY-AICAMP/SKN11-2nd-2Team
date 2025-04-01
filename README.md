@@ -337,7 +337,7 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 ![image](https://github.com/user-attachments/assets/9b5e6988-2edf-4f94-9829-58b4cf0bbb7f)
 
-# faker 데이터 증강 후
+# 🔖faker 데이터 증강 후
 
 #### 이상치 처리 전
 ![이상치 처리전](https://github.com/user-attachments/assets/fa19cd62-4e11-4f34-91b5-282a93516d53)
