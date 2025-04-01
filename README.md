@@ -304,14 +304,14 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 ## 📉 ROC Curve 결과
 
-![ROC](https://github.com/user-attachments/assets/50f0c7d6-72d2-4d0a-aff7-f84b5c7c2aaa)
+![roc_3](https://github.com/user-attachments/assets/d6abd04c-2179-4cc6-b596-e48ef6eb64eb)
 
+![roc_2](https://github.com/user-attachments/assets/18a94cf3-b41f-48d4-a504-bfdba29fbb9d)
 
 | 항목         | 값   | 설명 |
 |--------------|------|------|
-| **AUC Score** | **0.44** | ⚠️ 랜덤보다 낮음 (0.5 미만) → 심각한 예측 왜곡 가능성 |
-
-> ❗ AUC가 0.44라는 것은 **모델의 확률 예측이 클래스 구분에 실패했거나 반대로 학습했을 가능성**이 있다는 것을 의미함.
+| **AUC Score(Logistic Reg)** | **0.73** |
+| **AUC Score(XGBoost)** | **0.78** |
 
 ---
 
@@ -373,3 +373,5 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 # 한줄 회고
 - 유빈 : 성능이 잘 나오지는 못했지만 수업 때 배운 내용을 모두 사용해 볼 수 있어서 좋은 경험이었다고 생각합니다
 - 선호 : 성능이 잘 나오지 않았지만 경험을 많이 할 수 있어 좋았고 데이터의 중요성을 알게되었습니다.
+- 준희 : 프로젝트를 진행하면서 성능이 잘 나오지 않아 데이터셋이 얼마나 중요한지 깨달았습니다. 이러한 과정에서 배운 내용들을 많이 사용할 수 있어서 좋았습니다.
+- 현민 : 프로잭트를 진행하면서 많은 부족함을 느꼈고 짧은 기간이였지만 많은 도움을 준 팀원들에게 감사함을 전하고 싶습니다.
