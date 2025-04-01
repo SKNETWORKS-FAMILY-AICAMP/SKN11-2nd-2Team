@@ -300,6 +300,19 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 ![최종결과2](https://github.com/user-attachments/assets/0dde7f4a-b1b7-41a7-a332-5079d1aaf799)
 
+## 📉 ROC Curve 결과
+
+![ROC](https://github.com/user-attachments/assets/58a3937d-8cc8-46b8-ada7-8f6beed56ae3)
+
+
+| 항목         | 값   | 설명 |
+|--------------|------|------|
+| **AUC Score** | **0.44** | ⚠️ 랜덤보다 낮음 (0.5 미만) → 심각한 예측 왜곡 가능성 |
+
+> ❗ AUC가 0.44라는 것은 **모델의 확률 예측이 클래스 구분에 실패했거나 반대로 학습했을 가능성**이 있다는 것을 의미함.
+
+---
+
 ---
 
 ## 🔍 문제 분석 및 한계점
