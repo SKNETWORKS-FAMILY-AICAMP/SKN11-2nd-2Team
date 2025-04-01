@@ -292,6 +292,8 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 ---
 
 ## 최종 선정 모델: LightGBM (전처리 + Optuna 튜닝)
+- 최적의 파라미터
+![image](https://github.com/user-attachments/assets/f45b78d7-c51f-48bf-b3be-f4ad1f2adab6)
 
 ### 최종 성능 요약
 
@@ -363,6 +365,9 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 | CatBoost | 0.80 | 0.79 | 0.80 | 0.74 | 0.77 |
 | LightGBM | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
 
+- XGBoost 최적의 파라미터
+![image](https://github.com/user-attachments/assets/2b1ff9b2-9014-460d-8cff-50caff587b47)
+
 ---
 ## 📉 ROC Curve 결과
 
@@ -374,6 +379,7 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 |----------------------------------|------|------|
 | **AUC Score (Logistic Regression)** | **0.73** | AUC는 0.5 이상이면 우연보다 나은 성능이며, 0.7 이상이면 우수한 성능으로 간주됨 |
 | **AUC Score (XGBoost)**            | **0.78** | 두 모델 중 XGBoost가 더 높은 분류 성능을 보임 |
+
 
 **결론적으로**, 두 모델 모두 일정 수준 이상의 분류 성능을 보였으며,  
 그 중에서도 **XGBoost가 Logistic Regression보다 더 우수한 성능을 나타냈습니다.**
