@@ -347,7 +347,7 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 | SVM(SVC) | 0.76 | 0.73 | 0.75 | 0.66 | 0.70 |
 | RandomForest0 | 0.80 | 0.79 | 0.80 | 0.74 | 0.77 |
 | XGBoost | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
-| CatBoost | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
+| CatBoost | 0.80 | 0.79 | 0.80 | 0.74 | 0.77 |
 | LightGBM | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
 
 # 예측
