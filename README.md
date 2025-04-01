@@ -302,19 +302,6 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 ---
 
-## 📉 ROC Curve 결과
-
-![roc_3](https://github.com/user-attachments/assets/d6abd04c-2179-4cc6-b596-e48ef6eb64eb)
-
-![roc_2](https://github.com/user-attachments/assets/18a94cf3-b41f-48d4-a504-bfdba29fbb9d)
-
-| 항목         | 값   | 설명 |
-|--------------|------|------|
-| **AUC Score(Logistic Reg)** | **0.73** |
-| **AUC Score(XGBoost)** | **0.78** |
-
----
-
 ## 🔍 문제 분석 및 한계점
 
 ### ✅ 강점
@@ -363,12 +350,24 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 | --- | --- | --- | --- | --- | --- |
 | 로지스틱회귀 | 0.69 | 0.68 | 0.66 | 0.68 | 0.67 |
 | SVM(SVC) | 0.76 | 0.73 | 0.75 | 0.66 | 0.70 |
-| RandomForest0 | 0.80 | 0.79 | 0.80 | 0.74 | 0.77 |
-| XGBoost | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
+| RandomForest | 0.80 | 0.79 | 0.80 | 0.74 | 0.77 |
+| **XGBoost** | **0.80** | **0.79** | **0.80** | **0.75** | **0.77** |
 | CatBoost | 0.80 | 0.79 | 0.80 | 0.74 | 0.77 |
 | LightGBM | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
 
 # 예측
+## 📉 ROC Curve 결과
+
+![roc_3](https://github.com/user-attachments/assets/d6abd04c-2179-4cc6-b596-e48ef6eb64eb)
+
+![roc_2](https://github.com/user-attachments/assets/18a94cf3-b41f-48d4-a504-bfdba29fbb9d)
+
+| 항목         | 값   | 설명 |
+|--------------|------|------|
+| **AUC Score(Logistic Regression)** | **0.73** |
+| **AUC Score(XGBoost)** | **0.78** |
+
+---
 
 # 한줄 회고
 - 유빈 : 성능이 잘 나오지는 못했지만 수업 때 배운 내용을 모두 사용해 볼 수 있어서 좋은 경험이었다고 생각합니다
