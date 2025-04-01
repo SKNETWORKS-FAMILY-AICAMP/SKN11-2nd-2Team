@@ -334,9 +334,6 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 ---
 
-
-![image](https://github.com/user-attachments/assets/9b5e6988-2edf-4f94-9829-58b4cf0bbb7f)
-
 # 🔖faker 데이터 증강 후
 
 #### 이상치 처리 전
@@ -380,6 +377,39 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 **결론적으로**, 두 모델 모두 일정 수준 이상의 분류 성능을 보였으며,  
 그 중에서도 **XGBoost가 Logistic Regression보다 더 우수한 성능을 나타냈습니다.**
+
+## 🔍 중요 피처 인사이트 (Feature Importance 기반)
+
+![image](https://github.com/user-attachments/assets/9b5e6988-2edf-4f94-9829-58b4cf0bbb7f)
+
+| 중요 변수                  | 인사이트 요약 |
+|---------------------------|----------------|
+| `Annual_Income`         | 소득 수준이 높을수록 이탈 경향이 뚜렷함 (단발 소비 가능성) |
+| `Num_of_Purchases`      | 반복 구매가 많을수록 이탈률 낮음 → 충성고객 지표 |
+| `Average_Transaction_Amount` | 건당 금액이 클수록 단발 소비 경향. 리텐션 필요 |
+| `Age`, `Total_Spend`      | 연령과 총 지출도 유의미. 하지만 반복성과의 상관이 중요 |
+| `Last_Purchase_Days_Ago`  | 마지막 구매 시점이 오래되었을수록 이탈 위험 ↑ |
+| `Num_of_Support_Contacts` | 고객 불만 지표로 활용 가능. 빈번한 문의는 이탈 위험요인 |
+| `Satisfaction_Score`      | 단독 영향은 낮지만 지출, 구매와의 파생 조합에 영향 가능 |
+
+---
+
+## 📌 실전 비즈니스 인사이트
+
+### 💸 고소득, 고액 소비자 = 우선 관리 타겟
+- 단발성 구매 경향이 높고 이탈 확률도 큼  
+→ **혜택 제공 / 개인화 마케팅 필요**
+
+### 🔁 반복 구매자 = 충성 고객
+- **리텐션 리워드 설계**로 유지 전략 필요
+
+### ⏰ 마지막 구매일이 오래됨 = 이탈 징조
+- **90일 이상 미구매자 타겟 프로모션 자동화**
+
+### 📞 CS 이용 많은 고객 = 불만족 → 이탈
+- **상담 이력 기반 사전 이탈 예측 시스템 구성**
+
+---
 
 ---
 
