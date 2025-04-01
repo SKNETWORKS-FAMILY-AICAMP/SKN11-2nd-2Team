@@ -332,14 +332,14 @@ df = pd.read_csv('./data/online_retail_customer.csv')
     - 피쳐 중요도에 따라 selection -> 학습 결과 개선 x
 - Feature Engineering
     - 여러 파생 변수 추가 후 학습 -> 학습 결과 개선 x 
-- 데이터 증강(Smote, Fake 등)
+- 데이터 증강(Smote, Faker 등)
 
 ---
 
 
 ![image](https://github.com/user-attachments/assets/9b5e6988-2edf-4f94-9829-58b4cf0bbb7f)
 
-### fake 데이터 전처리
+### faker 데이터 증강 후 전처리
 
 #### 이상치 처리 전
 ![이상치 처리전](https://github.com/user-attachments/assets/fa19cd62-4e11-4f34-91b5-282a93516d53)
@@ -358,7 +358,7 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 
 
-(fake)
+(Faker 데이터 증강 이후)
 | 모델 | train_acc | test_acc | precision | recall | f1-score |
 | --- | --- | --- | --- | --- | --- |
 | 로지스틱회귀 | 0.69 | 0.68 | 0.66 | 0.68 | 0.67 |
@@ -372,3 +372,4 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 # 한줄 회고
 - 유빈 : 성능이 잘 나오지는 못했지만 수업 때 배운 내용을 모두 사용해 볼 수 있어서 좋은 경험이었다고 생각합니다
+- 선호 : 
