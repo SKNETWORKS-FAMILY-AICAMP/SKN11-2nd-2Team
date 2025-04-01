@@ -250,6 +250,7 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 | 모델         | Train Acc | Test Acc | Precision | Recall | F1-score |
 |--------------|-----------|----------|-----------|--------|----------|
+| LogisticRegression | 0.54 | 0.52     | 0.48      | 0.80   | 0.60     |
 | SVM (SVC)     | 0.73      | 0.46     | 0.49      | 0.59   | 0.54     |
 | RandomForest  | 0.66      | 0.55     | 0.50      | 0.72   | 0.59     |
 | XGBoost       | 0.68      | 0.53     | 0.49      | 0.84   | 0.61     |
@@ -265,7 +266,7 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 | 모델         | Train Acc | Test Acc | Precision | Recall | F1-score |
 |--------------|-----------|----------|-----------|--------|----------|
 | LogisticRegression | 0.53 | 0.57     | 0.53      | 0.82   | 0.64     |
-| SVM (SVC)     | -         | -        | -         | -      | -        |
+| SVM (SVC)     | 0.54      | 0.56     | 0.53      | 0.72   | 0.61     |
 | RandomForest  | 0.71      | 0.51     | 0.49      | 0.58   | 0.53     |
 | XGBoost       | 0.63      | 0.52     | 0.50      | **0.95** | 0.65     |
 | CatBoost      | **0.98**  | 0.49     | 0.47      | 0.90   | 0.60     |
