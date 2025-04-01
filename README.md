@@ -320,10 +320,6 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 
 ![image](https://github.com/user-attachments/assets/9b5e6988-2edf-4f94-9829-58b4cf0bbb7f)
-![최종결과](https://github.com/user-attachments/assets/e29a860a-8448-4862-8507-203c65667ee2)
-![최종결과2](https://github.com/user-attachments/assets/45c545a1-d1e6-4a9e-aa21-0ed13f3460b2)
-
-
 
 ### fake 데이터 전처리
 
