@@ -274,6 +274,13 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 ### fake 데이터 전처리
 
+#### 이상치 처리 전
+![이상치 처리전](https://github.com/user-attachments/assets/fa19cd62-4e11-4f34-91b5-282a93516d53)
+
+#### 이상치 처리 후
+![이상치처리후](https://github.com/user-attachments/assets/1b2319c3-6f23-439e-bb11-89f1d7db35a5)
+
+
 ![이미지](./img/이상치있음png.png)
 ![이미지](./img/fake이상치수.png)
 
