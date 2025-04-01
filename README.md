@@ -255,9 +255,7 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 | RandomForest  | 0.66      | 0.55     | 0.50      | 0.72   | 0.59     |
 | XGBoost       | 0.68      | 0.53     | 0.49      | 0.84   | 0.61     |
 | CatBoost      | 0.68      | 0.52     | 0.48      | 0.56   | 0.50     |
-| **LightGBM**  | **0.74**  | **0.60** | **0.81**  | **0.87** | **0.79** |
-
-> 🔍 **LightGBM이 가장 높은 precision, recall, f1-score를 기록하며 전체적으로 가장 우수한 성능을 보임.**
+| **LightGBM**  | **0.71**  | **0.61** | **0.64**  | **0.62** | **0.61** |
 
 ---
 
@@ -278,11 +276,11 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 ---
 
-# 고객 이탈 예측 리포트 (최종 선정 모델: LightGBM)
+# 고객 이탈 예측 리포트
 
 ---
 
-## 최종 선정 모델: LightGBM (Booster 기반 + 전처리 + Optuna 튜닝)
+## 최종 선정 모델: LightGBM (전처리 + Optuna 튜닝)
 
 ### 최종 성능 요약
 
@@ -329,9 +327,8 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 ---
 
 ## 결론
-LightGBM은 전체 모델 중 가장 안정적인 F1-score와 이탈 고객에 대한 높은 탐지 성능(Recall 0.75)을 보임.  
-0(유지 고객)번의 recall과 f1-score가 낮은 것은 **실제 이탈자 포착(1번)**을 우선시한 결과이며,
-이는 고객 이탈 방지 목적에 충실한 판단이지만, 비이탈 고객을 잘못 분류하는 리스크도 존재
+- LightGBM은 전체 모델 중 가장 안정적인 F1-score와 이탈 고객에 대한 높은 탐지 성능(Recall 0.75)을 보임.  
+- 0(유지 고객)번의 recall과 f1-score가 낮은 것은 **실제 이탈자 포착(1번)**을 우선시한 결과이며, 이는 고객 이탈 방지 목적에 충실한 판단이지만, 비이탈 고객을 잘못 분류하는 리스크도 존재
 
 
 ![image](https://github.com/user-attachments/assets/9b5e6988-2edf-4f94-9829-58b4cf0bbb7f)
