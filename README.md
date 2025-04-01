@@ -272,37 +272,14 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 | CatBoost | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
 | LightGBM | 0.80 | 0.79 | 0.80 | 0.75 | 0.77 |
 
-### fake 데이터
+### fake 데이터 전처리
 
 ![이미지](./img/이상치있음png.png)
 ![이미지](./img/fake이상치수.png)
 
 - 이상치 제거
 
-```
-def remove_outliers_iqr(df, cols, factor=1.5):
-    df_clean = df.copy()
-    for col in cols:
-        Q1 = df_clean[col].quantile(0.25)
-        Q3 = df_clean[col].quantile(0.75)
-        IQR = Q3 - Q1
-        lower_bound = Q1 - factor * IQR
-        upper_bound = Q3 + factor * IQR
 
-        # 이상치가 아닌 데이터만 남김
-        df_clean = df_clean[(df_clean[col] >= lower_bound) & (df_clean[col] <= upper_bound)]
-    
-    return df_clean
-```
-```
-numeric_cols = ['Age', 'Annual_Income', 'Total_Spend', 'Years_as_Customer',
-                'Num_of_Purchases', 'Average_Transaction_Amount',
-                'Num_of_Returns', 'Num_of_Support_Contacts',
-                'Satisfaction_Score', 'Last_Purchase_Days_Ago']
-
-df = remove_outliers_iqr(df, numeric_cols)
-print(f"제거 전 데이터 수: {len(df)}, 제거 후: {len(df)}")
-```
 ![이미지](./img/제거이후수.png)
 
 # 예측
