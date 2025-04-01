@@ -265,6 +265,13 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 | LightGBM | 0.64 | 0.61 | 0.65 | 0.62 | 0.63 |
 
 
+### 최종 모델
+- LightGBM
+
+  
+![이미지](./img/특성중요도.png)
+
+
 ### fake 데이터 전처리
 
 #### 이상치 처리 전
@@ -282,7 +289,6 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 ![이미지](./img/제거이후수.png)
 
-![이미지](./img/특성중요도.png)
 
 
 (fake)
