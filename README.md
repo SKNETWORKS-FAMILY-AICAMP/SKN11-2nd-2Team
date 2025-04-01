@@ -289,4 +289,6 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 ![이미지](./img/제거이후수.png)
 
+![이미지](./img/특성중요도.png)
+
 # 예측
