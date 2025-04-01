@@ -245,6 +245,7 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 | 모델 | train_acc | test_acc | precision | recall | f1-score |
 | --- | --- | --- | --- | --- | --- |
+| 로지스틱회귀 | 0.53 | 0.57 | 0.53 | 0.82 | 0.64 |
 | SVM(SVC) | 0.73 | 0.46 | 0.49 | 0.59 | 0.54 |
 | RandomForest | 0.66 | 0.55 | 0.5 | 0.72 | 0.59 |
 | XGBoost | 0.68 | 0.53 | 0.49 | 0.84 | 0.61 |
