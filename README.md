@@ -353,8 +353,8 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 - 이상치 제거
 
+![이상치 제거 후 개수](https://github.com/user-attachments/assets/20d5b7c4-2cd0-4c35-9d10-1ad0f410d354)
 
-![이미지](./img/제거이후수.png)
 
 
 
