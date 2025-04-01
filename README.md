@@ -47,11 +47,14 @@ kaggle - Online Retail Customer Churn Dataset
 ### 데이터 시각화
 
 <img src="https://img.shields.io/badge/pandas-FF7900?style=for-the-badge&%20api&logoColor=orange"> |<img src="https://img.shields.io/badge/matplotlib-7A1FA2?style=for-the-badge&logoColor=purple">|<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%95%EC%A0%9C&logoColor=white">|
-# WBS
-- 이선호 : EDA 시나리오 2 / randomforest ,CatBoost 모델 학습
-- 신준희 : EDA 시나리오 3,4,5 / XGBoost 모델 학습
-- 전유빈 : EDA 시나리오 6 / lightGBM 모델 학습
-- 이현민 : EDA 시나리오 1 / 로지스틱 회귀,SVM 모델 학습
+# 📅 WBS: 고객 이탈 예측 프로젝트 (2025.03.31 ~ 2025.04.01)
+
+| 담당자   | 작업 내용                                                                                     | 기간       |
+|----------|-----------------------------------------------------------------------------------------------|------------|
+| 이선호   | - EDA 시나리오 2 분석<br>- RandomForest, CatBoost, LightGBM 모델 학습<br>- 원본 데이터 전처리         | 3.31 ~ 4.1 |
+| 신준희   | - EDA 시나리오 3, 4, 5 분석<br>- XGBoost 모델 학습<br>- Fake 데이터 생성 및 전처리           | 3.31 ~ 4.1 |
+| 전유빈   | - EDA 시나리오 6 분석<br>- LightGBM 모델 학습<br>- 원본 데이터 전처리<br>- README 작성<br>- EDA 전체 정리 | 3.31 ~ 4.1 |
+| 이현민   | - EDA 시나리오 1 분석<br>- 로지스틱 회귀, SVM 모델 학습                                     | 3.31 ~ 4.1 |
 
 
 ## 🔍 DataSet을 통해 얻고자 하는 인사이트
