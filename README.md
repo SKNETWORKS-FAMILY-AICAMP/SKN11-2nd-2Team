@@ -313,8 +313,6 @@ df = pd.read_csv('./data/online_retail_customer.csv')
 
 ---
 
----
-
 ## 🔍 문제 분석 및 한계점
 
 ### ✅ 강점
